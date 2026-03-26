@@ -59,10 +59,10 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyA4x6rlnI-m19SAd4U6bKQi3hUCwOl5a6E',
-    appId: '1:521233023286:ios:7392ed6d3334977721f397',
+    appId: '1:521233023286:ios:230faf7a74b1a42321f397',
     messagingSenderId: '521233023286',
     projectId: 'suchi-d1fda',
     storageBucket: 'suchi-d1fda.firebasestorage.app',
-    iosBundleId: 'com.Sushi',
+    iosBundleId: 'com.minamikheal.sushiapp',
   );
 }
