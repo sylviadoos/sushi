@@ -25,7 +25,7 @@ class _BonusItemState extends State<BonusItem> {
   void getAuthFCM() async {
     try {
       // var authFCM = await FirebaseAuth.instance.currentUser!.uid;
-      _bonusRef = FirebaseDatabase.instance.reference().child('drivers/$authFCM');
+      _bonusRef = FirebaseDatabase.instance.ref().child('drivers/$authFCM');
       _bonusSubscription = _bonusRef.onValue.listen((DatabaseEvent event) {
         DataSnapshot snapshot = event.snapshot;
         if (snapshot.value != null && snapshot.value is Map<dynamic, dynamic>) {
