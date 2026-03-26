@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521233023286",
+    "project_id": "suchi-d1fda",
+    "storage_bucket": "suchi-d1fda.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521233023286:android:3d587254c0d9d24421f397",
+        "android_client_info": {
+          "package_name": "com.Sushi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY-v95ezjSwtIvw7EeL0TXBs_4Q7HKYOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

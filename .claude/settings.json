@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /d/projects/Sushi/android/app/src -type d -name res -o -name drawable* -o -name raw)",
+      "Bash(find /d/projects/Sushi -name *.json -path */android/*)",
+      "Bash(find /d/projects/Sushi -maxdepth 2 -name *.yaml -o -name *.json)"
+    ]
+  }
+}
