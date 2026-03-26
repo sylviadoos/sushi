@@ -25,9 +25,10 @@ var authPhoneFCM ='';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // await Firebase.initializeApp(
-  //   options:DefaultFirebaseOptions.currentPlatform,
-  // );
+  await Firebase.initializeApp(
+    name: "sushi_ios",
+    options:DefaultFirebaseOptions.currentPlatform,
+  );
   // if(FirebaseAuth.instance.currentUser != null){
 
   // }
